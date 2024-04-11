@@ -15,7 +15,7 @@ namespace PasswordGenerator
 
         public void fillArray()
         {
-            using (var f = new StreamReader("././././rockyou.txt"))
+            using (var f = new StreamReader("rockyou.txt"))
             {
                 string s;
                 int i = 0;
