@@ -21,7 +21,7 @@ namespace PasswordGenerator
                 int i = 0;
                 while (i < 10000 && (s = f.ReadLine()) != null)
                 {
-                    often_used_passwords[i] = s;æ
+                    often_used_passwords[i] = s;
                     i++;
                 }
                 rowsAmount = i;
