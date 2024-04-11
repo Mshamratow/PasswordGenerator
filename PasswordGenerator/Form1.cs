@@ -40,7 +40,7 @@ namespace PasswordGenerator
                 comboBox4.Items.Add(fi.Name);
             }
 
-            fillArray();
+            fillArray(); ;
 
             for (int i = minlen; i <= maxlen; i++)
             {
